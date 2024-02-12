@@ -47,54 +47,134 @@
   transition: all 0.5s;
 }
 
-/* 
-//xtra small divices
-@media (min-width: 481px) and (maw-width: 767px) {
+@media (max-width: 480px) {
   .banner {
-    padding: 200px 40px;
+    padding: 20px;
+    height: 120vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    .banner_contanier {
-      .title {
-        text-align: center;
-        padding: 20px 0;
-      }
-      .text {
-        text-align: justify;
-        padding: 10px 0;
-      }
-      .appli {
-        margin: 20px 0;
-        text-align: center;
-
-        a {
-          padding: 8px 30px;
-          border: 1px solid transparent;
-          border-radius: 20px;
-          background-color: green;
-          color: white;
-          &:hover {
-            background-color: rgb(32, 216, 32);
-            transition: all 0.5s;
-          }
-        }
-      }
-    }
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .banner .banner_contanier {
+    width: 100%;
+  }
+  .banner .title {
+    padding: 10px 0;
+  }
+  .banner .title h1 {
+    font-size: 1.8rem;
+  }
+  .banner .text {
+    word-spacing: 2px;
+  }
+  .banner .appli a {
+    padding: 10px 30px;
   }
 }
 
-//small tablets
-@media (min-width: 768px) and (maw-width: 991px) {
+@media (min-width: 481px) and (max-width: 767px) {
+  .banner {
+    padding: 0 40px;
+    height: 130vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .banner .banner_contanier {
+    width: 100%;
+  }
+  .banner .title {
+    padding: 10px 0;
+  }
+  .banner .title h1 {
+    font-size: 2.2rem;
+  }
 }
 
-//large tablets / laptop
-@media (min-width: 992px) and (maw-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner {
+    padding: 0 60px;
+    height: 130vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .banner .banner_contanier {
+    width: 70%;
+  }
+  .banner .title {
+    padding: 10px 0;
+  }
+  .banner .title h1 {
+    font-size: 2.5rem;
+  }
 }
 
-//desktop
-@media (min-width: 1200px) and (maw-width: 1919px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner {
+    padding: 0 60px;
+    height: 150vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .banner .banner_contanier {
+    width: 70%;
+  }
+  .banner .title {
+    padding: 10px 0;
+  }
+  .banner .title h1 {
+    font-size: 2.8rem;
+  }
 }
- */
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .banner {
+    padding: 0 100px;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .banner .banner_contanier {
+    width: 50%;
+  }
+  .banner .title {
+    padding: 10px 0;
+  }
+  .banner .title h1 {
+    font-size: 3rem;
+  }
+}
 /*# sourceMappingURL=banner.css.map */

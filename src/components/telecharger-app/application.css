@@ -1,22 +1,3 @@
-/* //mobile
-@media (max-width: 480px) {
-}
-
-//xtra small divices
-@media (min-width: 481px) and (maw-width: 767px) {
-}
-
-//small tablets
-@media (min-width: 768px) and (maw-width: 991px) {
-}
-
-//large tablets / laptop
-@media (min-width: 992px) and (maw-width: 1199px) {
-}
-
-//desktop
-@media (min-width: 1200px) and (maw-width: 1919px) {
-} */
 .application {
   padding: 50px 100px;
   color: white;
@@ -86,4 +67,128 @@
       -ms-flex-pack: end;
           justify-content: end;
 }
+
+@media (max-width: 480px) {
+  .application {
+    padding: 30px 0;
+    color: white;
+  }
+  .application .container_application {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: 0;
+  }
+  .application .container_application .left {
+    padding: 20px;
+  }
+  .application .container_application .left .title {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .application .container_application .left .take {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .application {
+    padding: 30px 0;
+    color: white;
+  }
+  .application .container_application {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: 0;
+  }
+  .application .container_application .left {
+    padding: 20px 40px;
+  }
+  .application .container_application .left .title {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .application {
+    padding: 30px 60px;
+    color: white;
+  }
+  .application .container_application {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 1fr;
+        grid-template-columns: 60% 1fr;
+    gap: 20px;
+    border-radius: 0;
+    border-radius: 20px;
+  }
+  .application .container_application .left {
+    padding: 30px 20px;
+  }
+  .application .container_application .left .title {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .application .container_application .left .take {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .application .container_application .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .application {
+    padding: 30px 60px;
+  }
+  .application .container_application .left {
+    padding: 30px 40px;
+  }
+  .application .container_application .left .title {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+/* 
+//desktop
+@media (min-width: 1200px) and (maw-width: 1919px) {
+} */
 /*# sourceMappingURL=application.css.map */

@@ -1,5 +1,3 @@
-//mobile
-//@media (max-width: 480px)
 .banner {
   padding: 100px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -41,53 +39,111 @@
     }
   }
 }
-/* 
-//xtra small divices
-@media (min-width: 481px) and (maw-width: 767px) {
+
+//mobile
+@media (max-width: 480px) {
   .banner {
-    padding: 200px 40px;
+    padding: 20px;
+    height: 120vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
     .banner_contanier {
-      .title {
-        text-align: center;
-        padding: 20px 0;
+      width: 100%;
+    }
+    .title {
+      padding: 10px 0;
+      h1 {
+        font-size: 1.8rem;
       }
-      .text {
-        text-align: justify;
-        padding: 10px 0;
+    }
+    .text {
+      word-spacing: 2px;
+    }
+    .appli {
+      a {
+        padding: 10px 30px;
       }
-      .appli {
-        margin: 20px 0;
-        text-align: center;
+    }
+  }
+}
 
-        a {
-          padding: 8px 30px;
-          border: 1px solid transparent;
-          border-radius: 20px;
-          background-color: green;
-          color: white;
-          &:hover {
-            background-color: rgb(32, 216, 32);
-            transition: all 0.5s;
-          }
-        }
+//xtra small divices
+@media (min-width: 481px) and (max-width: 767px) {
+  .banner {
+    padding: 0 40px;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .banner_contanier {
+      width: 100%;
+    }
+    .title {
+      padding: 10px 0;
+      h1 {
+        font-size: 2.2rem;
       }
     }
   }
 }
 
 //small tablets
-@media (min-width: 768px) and (maw-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner {
+    padding: 0 60px;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    .banner_contanier {
+      width: 70%;
+    }
+    .title {
+      padding: 10px 0;
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  }
 }
 
 //large tablets / laptop
-@media (min-width: 992px) and (maw-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner {
+    padding: 0 60px;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    .banner_contanier {
+      width: 70%;
+    }
+    .title {
+      padding: 10px 0;
+      h1 {
+        font-size: 2.8rem;
+      }
+    }
+  }
 }
 
 //desktop
-@media (min-width: 1200px) and (maw-width: 1919px) {
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .banner {
+    padding: 0 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    .banner_contanier {
+      width: 50%;
+    }
+    .title {
+      padding: 10px 0;
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
 }
- */
