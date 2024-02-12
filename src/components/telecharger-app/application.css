@@ -1,0 +1,89 @@
+/* //mobile
+@media (max-width: 480px) {
+}
+
+//xtra small divices
+@media (min-width: 481px) and (maw-width: 767px) {
+}
+
+//small tablets
+@media (min-width: 768px) and (maw-width: 991px) {
+}
+
+//large tablets / laptop
+@media (min-width: 992px) and (maw-width: 1199px) {
+}
+
+//desktop
+@media (min-width: 1200px) and (maw-width: 1919px) {
+} */
+.application {
+  padding: 50px 100px;
+  color: white;
+}
+
+.application .container_application {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background-color: green;
+  border-radius: 20px;
+}
+
+.application .container_application .left {
+  padding: 0 0 0 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.application .container_application .left .title {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+.application .container_application .left .take {
+  margin-bottom: 20px;
+}
+
+.application .container_application .left .btn {
+  margin-top: 20px;
+}
+
+.application .container_application .left .btn a {
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 10px 40px;
+  background-color: white;
+}
+
+.application .container_application .left .btn a:hover {
+  background-color: #26c526;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.application .container_application .right .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+/*# sourceMappingURL=application.css.map */

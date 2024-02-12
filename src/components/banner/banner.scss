@@ -1,0 +1,93 @@
+//mobile
+//@media (max-width: 480px)
+.banner {
+  padding: 100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../public/images/hero.webp") center center fixed no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  .banner_contanier {
+    width: 45%;
+  }
+  .title {
+    text-align: center;
+    padding: 20px 0;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  .text {
+    text-align: justify;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    word-spacing: 5px;
+  }
+  .appli {
+    margin: 20px 0;
+    text-align: center;
+
+    a {
+      padding: 10px 40px;
+      border: 1px solid transparent;
+      border-radius: 20px;
+      background-color: green;
+      color: white;
+      &:hover {
+        background-color: rgb(32, 216, 32);
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+/* 
+//xtra small divices
+@media (min-width: 481px) and (maw-width: 767px) {
+  .banner {
+    padding: 200px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    .banner_contanier {
+      .title {
+        text-align: center;
+        padding: 20px 0;
+      }
+      .text {
+        text-align: justify;
+        padding: 10px 0;
+      }
+      .appli {
+        margin: 20px 0;
+        text-align: center;
+
+        a {
+          padding: 8px 30px;
+          border: 1px solid transparent;
+          border-radius: 20px;
+          background-color: green;
+          color: white;
+          &:hover {
+            background-color: rgb(32, 216, 32);
+            transition: all 0.5s;
+          }
+        }
+      }
+    }
+  }
+}
+
+//small tablets
+@media (min-width: 768px) and (maw-width: 991px) {
+}
+
+//large tablets / laptop
+@media (min-width: 992px) and (maw-width: 1199px) {
+}
+
+//desktop
+@media (min-width: 1200px) and (maw-width: 1919px) {
+}
+ */

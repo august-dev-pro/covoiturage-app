@@ -1,0 +1,78 @@
+/* //mobile
+@media (max-width: 480px) {
+}
+
+//xtra small divices
+@media (min-width: 481px) and (maw-width: 767px) {
+}
+
+//small tablets
+@media (min-width: 768px) and (maw-width: 991px) {
+}
+
+//large tablets / laptop
+@media (min-width: 992px) and (maw-width: 1199px) {
+}
+
+//desktop
+@media (min-width: 1200px) and (maw-width: 1919px) {
+}
+ */
+
+.service {
+  padding: 50px 100px;
+  .service_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .name {
+      text-align: center;
+      margin: 10px 0 30px 0;
+
+      h2 {
+        font-size: 2rem;
+      }
+    }
+
+    .nos_services {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+
+      .card {
+        padding: 15px 0 0 15px;
+        border: 1px solid transparent;
+        border-radius: 15px;
+        background-color: #ccc;
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        height: 170px;
+
+        &:hover {
+          transform: scale(1.02);
+          transition: all 0.5s;
+        }
+
+        .left {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          .title {
+            font-size: 1.4rem;
+          }
+        }
+        .image {
+          display: flex;
+          align-items: end;
+          justify-content: end;
+
+          img {
+            border-radius: 15px;
+          }
+        }
+      }
+    }
+  }
+}
