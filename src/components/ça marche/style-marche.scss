@@ -1,0 +1,168 @@
+.section-ça-marche {
+  background-color: rgb(220, 232, 228);
+  .container-ça-marche {
+    margin-left: 50px;
+    margin-right: 50px;
+    .content-ça-marche {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+
+      .children-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .title {
+          font-size: 25px;
+          color: rgba(255, 68, 0, 0.688);
+          font-family: "cursive";
+        }
+        .texte {
+          font-size: 20px;
+          color: rgba(0, 0, 0, 0.443);
+        }
+      }
+      .children-two {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+
+        .children-two_inner_orange {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          align-items: center;
+
+          .inner-icon {
+            width: 150px;
+            height: 150px;
+            border: 3px solid rgba(255, 68, 0, 0.688);
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .icon-two {
+              font-size: 50px;
+              color: cadetblue;
+            }
+            .icon-one {
+              font-size: 50px;
+              color: rgba(255, 68, 0, 0.688);
+            }
+          }
+          .icon-title {
+            font-size: 25px;
+            color: rgba(255, 68, 0, 0.688);
+          }
+          .inner-detail {
+            width: 80%;
+            padding-bottom: 20px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.443);
+          }
+        }
+        .children-two_inner_orange:hover {
+          cursor: pointer;
+          transform: scale(1.02);
+          transition: all 0.5;
+        }
+        .children-two_inner {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          align-items: center;
+          cursor: pointer;
+          .inner-icon {
+            width: 150px;
+            height: 150px;
+            border: 3px solid rgba(125, 191, 193, 0.761);
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .icon-two {
+              font-size: 50px;
+              color: cadetblue;
+            }
+            .icon-one {
+              font-size: 50px;
+              color: rgba(255, 68, 0, 0.688);
+            }
+          }
+          .icon-title {
+            font-size: 25px;
+            color: rgba(95, 158, 160, 0.947);
+          }
+          .inner-detail {
+            width: 80%;
+            padding-bottom: 20px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.443);
+          }
+        }
+        .children-two_inner:hover {
+          cursor: pointer;
+          transform: scale(1.05);
+          transition: all 0.5;
+        }
+      }
+    }
+  }
+}
+
+/* Responsive */
+
+@media (max-width: 480px) {
+  .section-ça-marche {
+    .container-ça-marche {
+      .content-ça-marche {
+        .children-two {
+          display: grid;
+          grid-template-rows: repeat(1, auto);
+          gap: 1px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .section-ça-marche {
+    .container-ça-marche {
+      .content-ça-marche {
+        .children-two {
+          display: grid;
+          grid-template-columns: repeat(2, auto);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-ça-marche {
+    .container-ça-marche {
+      .content-ça-marche {
+        .children-two {
+          display: grid;
+          grid-template-columns: repeat(3, auto);
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .section-ça-marche {
+    .container-ça-marche {
+      .content-ça-marche {
+        .children-two {
+          display: grid;
+          grid-template-columns: repeat(4, auto);
+        }
+      }
+    }
+  }
+}
