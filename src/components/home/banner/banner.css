@@ -145,7 +145,7 @@
 }
 @media (min-width: 1200px) and (max-width: 1919px) {
   .banner {
-    height: 100vh;
+    height: 150vh;
     display: flex;
     align-items: center;
     justify-content: start;
