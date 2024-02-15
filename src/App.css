@@ -1,5 +1,6 @@
 .App {
   font-family: "kanit", sans-serif;
+  font-size: 18px;
 }
 
 .App-logo {
@@ -42,13 +43,24 @@
   padding: 0 70px;
 }
 
+/* section */
+.section {
+  padding: 70px 0;
+}
+
 button {
   border: none;
   background-color: #052a74;
   color: #fff;
-  padding: 10px 20px;
-  font-weight: 800;
+  padding: 13px 20px;
+  font-weight: 900;
   border-radius: 0.5rem;
+  font-size: 15px;
+  width: max-content;
+  transition: all 0.2s;
+}
+button:hover {
+  background-color: #058be4f6;
 }
 
 html,
@@ -93,4 +105,46 @@ a {
 /* container */
 .container {
   padding: 0 100px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+  .section {
+    padding: 30px 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+  .container {
+    padding: 0 25px;
+  }
+  .section {
+    padding: 40px 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    padding: 0 40px;
+  }
+  .section {
+    padding: 50px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    padding: 0 50px;
+  }
+  .section {
+    padding: 60px 0;
+  }
+}
+
+@media (min-width: 876px) and (max-width: 1024px) {
+  .container {
+    padding: 0 70px;
+  }
 }

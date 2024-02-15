@@ -1,0 +1,141 @@
+.application {
+  color: white;
+}
+.application .container_application .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background-color: #052a74;
+  border-radius: 20px;
+}
+.application .container_application .content .left {
+  padding: 0 0 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.application .container_application .content .left .title {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+.application .container_application .content .left .take {
+  margin-bottom: 20px;
+}
+.application .container_application .content .left .btn {
+  margin-top: 20px;
+}
+.application .container_application .content .left .btn a {
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 10px 40px;
+  background-color: white;
+}
+.application .container_application .content .left .btn a:hover {
+  background-color: rgba(5, 139, 228, 0.9647058824);
+  transition: all 0.2s;
+  color: #fff;
+}
+.application .container_application .content .right .image {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+@media (max-width: 480px) {
+  .application {
+    color: rgb(255, 255, 255);
+  }
+  .application .container_application .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0;
+  }
+  .application .container_application .content .left {
+    padding: 20px;
+  }
+  .application .container_application .content .left .title {
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .application .container_application .content .left .take {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .application .container_application .content .left .btn {
+    margin-top: 20px;
+  }
+  .application .container_application .content .left .btn a {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 7px 25px;
+    background-color: white;
+  }
+  .application .container_application .content .left .btn a:hover {
+    background-color: rgba(5, 139, 228, 0.9647058824);
+    transition: all 0.2s;
+    color: #fff;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .application {
+    color: white;
+  }
+  .application .container_application .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0;
+  }
+  .application .container_application .content .left {
+    padding: 20px 40px;
+  }
+  .application .container_application .content .left .title {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .application {
+    color: white;
+  }
+  .application .container_application .content {
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    gap: 20px;
+    border-radius: 0;
+    border-radius: 20px;
+  }
+  .application .container_application .content .left {
+    padding: 30px 20px;
+  }
+  .application .container_application .content .left .title {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .application .container_application .content .left .take {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .application .container_application .content .right {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .application .container_application .content .left {
+    padding: 30px 40px;
+  }
+  .application .container_application .content .left .title {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}/*# sourceMappingURL=application.css.map */

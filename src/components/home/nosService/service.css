@@ -1,0 +1,174 @@
+/* //mobile
+@media (max-width: 480px) {
+}
+
+//xtra small divices
+@media (min-width: 481px) and (maw-width: 767px) {
+}
+
+//small tablets
+@media (min-width: 768px) and (maw-width: 991px) {
+}
+
+//large tablets / laptop
+@media (min-width: 992px) and (maw-width: 1199px) {
+}
+
+//desktop
+@media (min-width: 1200px) and (maw-width: 1919px) {
+}
+ */
+.service .service_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.service .service_container .name {
+  text-align: center;
+  margin: 10px 0 30px 0;
+}
+.service .service_container .name h2 {
+  font-size: 2rem;
+}
+.service .service_container .nos_services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.service .service_container .nos_services .card {
+  padding: 15px 0 0 15px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-color: #ccc;
+  display: grid;
+  grid-template-columns: 60% 1fr;
+  height: 170px;
+}
+.service .service_container .nos_services .card:hover {
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+.service .service_container .nos_services .card .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.service .service_container .nos_services .card .left .title {
+  font-size: 1.4rem;
+  width: -moz-max-content;
+  width: max-content;
+}
+.service .service_container .nos_services .card .image {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.service .service_container .nos_services .card .image img {
+  border-radius: 15px;
+}
+
+@media (max-width: 480px) {
+  .service .service_container .name {
+    text-align: center;
+    margin: 10px 0 20px 0;
+  }
+  .service .service_container .name h2 {
+    font-size: 1.5rem;
+  }
+  .service .service_container .nos_services {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .service .service_container .nos_services .card {
+    padding: 10px 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 180px;
+  }
+  .service .service_container .nos_services .card .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .service .service_container .nos_services .card .left .title {
+    font-size: 1rem;
+  }
+  .service .service_container .nos_services .card .left .text {
+    font-size: 0.8rem;
+  }
+  .service .service_container .nos_services .card .image {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  }
+  .service .service_container .nos_services .card .image img {
+    border-radius: 0 0 15px 0;
+    max-width: 60px;
+    max-height: 60px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .service .service_container .name h2 {
+    font-size: 1rem;
+  }
+  .service .service_container .nos_services {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .service .service_container .nos_services .card {
+    padding: 10px 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 160px;
+  }
+  .service .service_container .nos_services .card .left .title {
+    font-size: 1.2rem;
+  }
+  .service .service_container .nos_services .card .left .text {
+    font-size: 1rem;
+  }
+  .service .service_container .nos_services .card .image img {
+    border-radius: 0 0 15px 0;
+    max-width: 70px;
+    max-height: 70px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .service .service_container .name h2 {
+    font-size: 2rem;
+  }
+  .service .service_container .nos_services {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .service .service_container .nos_services .card {
+    padding: 10px 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 160px;
+  }
+  .service .service_container .nos_services .card .left .title {
+    font-size: 1.2rem;
+  }
+  .service .service_container .nos_services .card .left .text {
+    font-size: 1rem;
+  }
+  .service .service_container .nos_services .card .image img {
+    border-radius: 0 0 15px 0;
+    max-width: 60px;
+    max-height: 60px;
+    overflow: hidden;
+  }
+}/*# sourceMappingURL=service.css.map */

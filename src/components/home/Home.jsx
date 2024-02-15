@@ -1,12 +1,19 @@
 import React from "react";
+import Banner from "./banner/banner";
+import NosServices from "./nosService/NosServices";
+import DowloadApp from "./telecharger-app/DowloadApp";
+import About from "./apropos/About";
+import Marche from "./marche/Marche";
 
 const Home = () => {
   return (
-    <section className="home-section section">
-      <div className="home-section_container container">
-        <div className="home-secton_content content"></div>
-      </div>
-    </section>
+    <main className="home">
+      <Banner />
+      <About />
+      <NosServices />
+      <Marche />
+      <DowloadApp />
+    </main>
   );
 };
 
