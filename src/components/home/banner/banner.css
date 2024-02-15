@@ -94,6 +94,7 @@
  */
 @media (max-width: 767px) {
   .banner {
+    padding: 40px 0;
     height: 40vh;
     display: flex;
     align-items: center;
