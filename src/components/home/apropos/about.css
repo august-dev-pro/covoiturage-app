@@ -36,10 +36,10 @@
 }
 .section-apropos .container-apropos .content-apropos .children-apropos-image {
   max-width: 90%;
-  max-height: 200px;
 }
 .section-apropos .container-apropos .content-apropos .children-apropos-image .image {
   border-radius: 20px;
+  max-height: 400px;
 }
 
 /* Responsive */
@@ -87,7 +87,6 @@
   }
   .section-apropos .container-apropos .content-apropos .children-apropos-image {
     max-width: 90%;
-    max-height: 200px;
   }
   .section-apropos .container-apropos .content-apropos .children-apropos-image .image {
     border-radius: 20px;
@@ -137,7 +136,6 @@
   }
   .section-apropos .container-apropos .content-apropos .children-apropos-image {
     max-width: 90%;
-    max-height: 200px;
   }
   .section-apropos .container-apropos .content-apropos .children-apropos-image .image {
     border-radius: 20px;
@@ -187,7 +185,6 @@
   }
   .section-apropos .container-apropos .content-apropos .children-apropos-image {
     max-width: 90%;
-    max-height: 200px;
   }
   .section-apropos .container-apropos .content-apropos .children-apropos-image .image {
     border-radius: 20px;
@@ -237,7 +234,6 @@
   }
   .section-apropos .container-apropos .content-apropos .children-apropos-image {
     max-width: 90%;
-    max-height: 200px;
   }
   .section-apropos .container-apropos .content-apropos .children-apropos-image .image {
     border-radius: 20px;
