@@ -72,7 +72,7 @@
   width: max-content;
 }
 .logo-container .logo::after {
-  top: 1px;
+  top: 0px;
   position: absolute;
   transition: all 0.2s;
   content: "";
@@ -96,7 +96,7 @@
     height: fit-content;
   }
   .logo-container .logo {
-    font-weight: 600;
+    font-weight: 900;
     font-size: 19px;
   }
 }
